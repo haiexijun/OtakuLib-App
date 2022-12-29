@@ -3,7 +3,25 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "宅居"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText":"我的"
 			}
 		}
 	],
@@ -13,5 +31,38 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/IndexTab.png",
+				"selectedIconPath": "static/indexTabSelect.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/categoryTab.png",
+				"selectedIconPath": "static/categoryTabSelect.png"
+				
+			},
+			{
+				"pagePath": "pages/community/community",
+				"text": "宅居",
+				"iconPath": "static/communityTab.png",
+				"selectedIconPath": "static/communityTabSelect.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/meTab.png",
+				"selectedIconPath": "static/meTabSelect.png"
+			}
+		],
+		"fontSize": "12px",
+		"height": "60px",
+		"color": "#030303",
+		"selectedColor": "#1296db"
+	}
 }

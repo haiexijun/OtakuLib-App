@@ -1,7 +1,11 @@
 <script>
 	export default {
+		// 启动应用触发
 		onLaunch: function() {
-			console.log('App Launch')
+			//启动界面设为4秒
+			setTimeout(() => {
+			    plus.navigator.closeSplashscreen();
+			}, 3000);
 		},
 		onShow: function() {
 			console.log('App Show')
