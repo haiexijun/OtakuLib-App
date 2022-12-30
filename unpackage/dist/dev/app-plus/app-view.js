@@ -830,7 +830,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
+        {
+          staticClass: _vm._$g(11, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 11,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -878,7 +886,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+        {
+          staticClass: _vm._$g(19, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 19,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -926,7 +942,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
+        {
+          staticClass: _vm._$g(27, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 27,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -974,7 +998,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(35, "sc"), attrs: { _i: 35 } },
+        {
+          staticClass: _vm._$g(35, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 35,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -1022,7 +1054,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(43, "sc"), attrs: { _i: 43 } },
+        {
+          staticClass: _vm._$g(43, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 43,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -1070,7 +1110,15 @@ var render = function () {
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(51, "sc"), attrs: { _i: 51 } },
+        {
+          staticClass: _vm._$g(51, "sc"),
+          attrs: {
+            "hover-class": "hover",
+            "hover-start-time": "0",
+            "hover-stay-time": "100",
+            _i: 51,
+          },
+        },
         [
           _c(
             "uni-view",
@@ -1679,7 +1727,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 26);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.stage1[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 330upx;\n\tbackground-color: #ffffff;\n\toverflow: hidden;\n}\n.stage2[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 100upx;\n\tbackground-color: #ffffff;\n\tmargin-top: 15upx;\n\toverflow: hidden;\n}\n.stage3[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 100upx;\n\tbackground-color: #ffffff;\n\tmargin-top: 0upx;\n\tborder-top: 1upx solid #e2e2e2;\n\toverflow: hidden;\n}\n.content1[data-v-e8988cd4]{\n\tbackground-color: #fff;\n\twidth: 93%;\n\tmargin: 0 auto;\n\tmargin-top: 130upx;\n\theight: 150upx;\n}\n.left[data-v-e8988cd4]{\n\twidth: 150upx;\n\theight: 150upx;\n\tbackground-color: aquamarine;\n\tfloat: left;\n\tborder-radius: 30upx;\n}\nuni-image[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 100%;\n\theight: 100%;\n\tborder-radius: 30upx;\n}\n.right[data-v-e8988cd4]{\n\twidth: 450upx;\n\theight: 150upx;\n\tmargin-left: 25upx;\n\tfloat: left;\n}\n.top[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 50%;\n}\n.bottom[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 50%;\n}\n.username[data-v-e8988cd4]{\n\tline-height: 75upx;\n\tfont-size: 45upx;\n\tfont-weight: 700;\n}\n.rolekey[data-v-e8988cd4]{\n\tline-height:90upx;\n\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n.rolevalue[data-v-e8988cd4]{\n\tline-height: 90upx;\n\tmargin-left: 15upx;\n}\n.left2[data-v-e8988cd4]{\n\twidth: 87%;\n\theight: 100%;\n\tfloat: left;\n}\n.right2[data-v-e8988cd4]{\n\twidth: 13%;\n\theight: 100%;\n\tfloat: left;\n}\n.righticon[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 30%;\n\theight: 35%;\n\tmargin-left: 45upx;\n\tmargin-top: 36upx;\n}\n.lefticon[data-v-e8988cd4]{\n\twidth: 15%;\n\theight: 100%;\n\tfloat: left;\n}\n.righttext[data-v-e8988cd4]{\n\twidth: 85%;\n\theight: 100%;\n\tfloat: left;\n}\n.text[data-v-e8988cd4]{\n\tmargin-left: 5upx;\n\tline-height: 105upx;\n\tfont-size: 38upx;\n}\n.img[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 70%;\n\theight: 70%;\n\tmargin: 0 auto;\n\tmargin-top: 18upx;\n}\n", ""]);
+exports.push([module.i, "\n.stage1[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 330upx;\n\tbackground-color: #ffffff;\n\toverflow: hidden;\n}\n.stage2[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 100upx;\n\tbackground-color: #ffffff;\n\tmargin-top: 15upx;\n\toverflow: hidden;\n}\n.stage3[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 100upx;\n\tbackground-color: #ffffff;\n\tmargin-top: 0upx;\n\tborder-top: 1upx solid #e2e2e2;\n\toverflow: hidden;\n}\n.content1[data-v-e8988cd4]{\n\tbackground-color: #fff;\n\twidth: 93%;\n\tmargin: 0 auto;\n\tmargin-top: 130upx;\n\theight: 150upx;\n}\n.left[data-v-e8988cd4]{\n\twidth: 150upx;\n\theight: 150upx;\n\tbackground-color: aquamarine;\n\tfloat: left;\n\tborder-radius: 30upx;\n}\nuni-image[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 100%;\n\theight: 100%;\n\tborder-radius: 30upx;\n}\n.right[data-v-e8988cd4]{\n\twidth: 450upx;\n\theight: 150upx;\n\tmargin-left: 25upx;\n\tfloat: left;\n}\n.top[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 50%;\n}\n.bottom[data-v-e8988cd4]{\n\twidth: 100%;\n\theight: 50%;\n}\n.username[data-v-e8988cd4]{\n\tline-height: 75upx;\n\tfont-size: 45upx;\n\tfont-weight: 700;\n}\n.rolekey[data-v-e8988cd4]{\n\tline-height:90upx;\n\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n.rolevalue[data-v-e8988cd4]{\n\tline-height: 90upx;\n\tmargin-left: 15upx;\n}\n.left2[data-v-e8988cd4]{\n\twidth: 87%;\n\theight: 100%;\n\tfloat: left;\n}\n.right2[data-v-e8988cd4]{\n\twidth: 13%;\n\theight: 100%;\n\tfloat: left;\n}\n.righticon[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 30%;\n\theight: 35%;\n\tmargin-left: 45upx;\n\tmargin-top: 36upx;\n}\n.lefticon[data-v-e8988cd4]{\n\twidth: 15%;\n\theight: 100%;\n\tfloat: left;\n}\n.righttext[data-v-e8988cd4]{\n\twidth: 85%;\n\theight: 100%;\n\tfloat: left;\n}\n.text[data-v-e8988cd4]{\n\tmargin-left: 5upx;\n\tline-height: 105upx;\n\tfont-size: 38upx;\n}\n.img[data-v-e8988cd4]{\n\tdisplay: block;\n\twidth: 70%;\n\theight: 70%;\n\tmargin: 0 auto;\n\tmargin-top: 18upx;\n}\n.hover[data-v-e8988cd4]{\n\tbackground-color: #eaeaea;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

@@ -16,7 +16,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="stage2">
+	<view class="stage2" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/edit.png"></image>
@@ -29,7 +29,7 @@
 			<image class="righticon" src="../../static/right.png"></image>
 		</view>
 	</view>
-	<view class="stage2">
+	<view class="stage2" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/donate.png"></image>
@@ -42,7 +42,7 @@
 			<image class="righticon" src="../../static/right.png"></image>
 		</view>
 	</view>
-	<view class="stage3">
+	<view class="stage3" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/askbook.png"></image>
@@ -55,7 +55,7 @@
 			<image class="righticon" src="../../static/right.png"></image>
 		</view>
 	</view>
-	<view class="stage3">
+	<view class="stage3" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/QQ.png"></image>
@@ -68,7 +68,7 @@
 			<image class="righticon" src="../../static/right.png"></image>
 		</view>
 	</view>
-	<view class="stage3">
+	<view class="stage3" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/advice.png"></image>
@@ -81,7 +81,7 @@
 			<image class="righticon" src="../../static/right.png"></image>
 		</view>
 	</view>
-	<view class="stage3">
+	<view class="stage3" hover-class="hover" hover-start-time="0" hover-stay-time="100">
 		<view class="left2">
 			<view class="lefticon">
 				<image class="img" src="../../static/about.png"></image>
@@ -212,5 +212,8 @@
 		height: 70%;
 		margin: 0 auto;
 		margin-top: 18upx;
+	}
+	.hover{
+		background-color: #eaeaea;
 	}
 </style>
