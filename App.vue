@@ -6,6 +6,8 @@
 			setTimeout(() => {
 			    plus.navigator.closeSplashscreen();
 			}, 3000);
+			// 禁止屏幕旋转，保持竖屏
+			plus.screen.lockOrientation("portrait-primary");
 		},
 		onShow: function() {
 			console.log('App Show')

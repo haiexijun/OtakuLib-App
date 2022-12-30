@@ -21,15 +21,22 @@
 		{
 			"path": "pages/me/me",
 			"style": {
-				"navigationBarTitleText":"我的"
+				"navigationBarTitleText":"我的",
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"titleNView":false
+				}
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff",
+		"app-plus": {
+			"bounce": "none"
+		}
 	},
 	"uniIdRouter": {},
 	"tabBar": {
@@ -63,6 +70,7 @@
 		"fontSize": "12px",
 		"height": "60px",
 		"color": "#030303",
-		"selectedColor": "#1296db"
+		"selectedColor": "#1296db",
+		"backgroundColor": "#ffffff"
 	}
 }
